@@ -5,6 +5,7 @@ using UnityEngine;
 public class Moving : MonoBehaviour
 {
     [SerializeField] private float speed = 0.5f;
+    public bool _isHandFree = true;
 
     private Vector2 moveVector;
 
